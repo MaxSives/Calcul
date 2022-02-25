@@ -8,12 +8,9 @@ var Calculator = /** @class */ (function () {
   };
   return Calculator;
 })();
-
 var calculator = new Calculator(1, 2);
-
 console.log(calculator);
-
-function plus(num1, num2, symbol) {
+function Calculator2(num1, num2, symbol) {
   if (symbol === "+") {
     return num1 + num2;
   } else if (symbol === "-") {
@@ -23,8 +20,9 @@ function plus(num1, num2, symbol) {
   } else if (symbol === "/") {
     return num1 / num2;
   } else {
-    return NaN;
+    return "Неверная операция";
   }
 }
+console.log(Calculator2(3, 2, "*"));
 
-console.log(plus(3, 2, "*"));
+module.exports = Calculator2;
