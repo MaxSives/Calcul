@@ -15,11 +15,11 @@ class Calculator {
   }
 }
 
-let calculator = new Calculator();
+//let calculator = new Calculator();
 
-console.log(calculator.addition(10, 2));
-console.log(calculator.subtraction(10, 2));
-console.log(calculator.multiplication(10, 2));
-console.log(calculator.division(10, 2));
+//console.log(calculator.addition(10, 2));
+//console.log(calculator.subtraction(10, 2));
+//console.log(calculator.multiplication(10, 2));
+//console.log(calculator.division(10, 2));
 
 export default Calculator;
